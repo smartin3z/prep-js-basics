@@ -10,7 +10,14 @@
 * It should be a String.
 **/
 
+var firstName = "Scott! HO! wassup HHHawwwiiaannn";
+console.log(firstName);
 
+var lastName = "Martinez! ESE!!!";
+console.log(lastName);
+
+var birthPlace = "HO! Da 808 State baah!!";
+console.log(birthPlace);
 
 /**
 * #2
@@ -22,7 +29,17 @@
 * Their values should be a Number
 **/
 
+/**var favoriteNumber_test = [58, 13, 17];
+console.log(favoriteNumber_test);**/
 
+var favoriteNumber = "17 is my favorite number";
+console.log(favoriteNumber);
+
+var currentYear = 2016;
+console.log(currentYear);
+
+var thatOnePrinceSong = "PARTY LIKE ITS 1999"; 
+console.log(thatOnePrinceSong);
 
 /**
 * #3
@@ -34,7 +51,17 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = true;
+console.log(true);
 
+var isLeftHanded = false;
+console.log(false);
+
+var inHawaii = true;
+console.log(true);
+
+var isHappyCoding = (true);
+console.log(true);
 
 /**
 * #4
@@ -45,7 +72,11 @@
 * Their values should be a Null value
 **/
 
+var enrolledAtDevLeague = null;
+console.log(null);
 
+var completedFridayPrep = null;
+console.log(null);
 
 /**
 * #5a
@@ -56,7 +87,13 @@
 * which can be found along the west coast of The United States.
 **/
 
+var westCoast = ["California, Oregon, Washington"] 
 
+{
+ console.log("California");
+ console.log("Oregon");
+ console.log("Washington");
+}
 
 /**
 * #5b
@@ -67,7 +104,8 @@
 * Have at least ten even values in this array.
 **/
 
-
+evenNumbers = [2, 4, 6, 8, 10, 12, 14];
+console.log(evenNumbers);
 
 /**
 * #6a Arithmetic
@@ -80,8 +118,17 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
+var sumOfNumbers = 1 + 2 + 5 + 6;
+console.log(sumOfNumbers);
 
+var subtraction = 1 - 10;
+console.log(subtraction);
 
+var multiplication = 1 * 1;
+console.log(multiplication);
+
+var division = 8 / 2;
+console.log(division);
 
 /**
 * #6b Comparisons & Logic
@@ -101,7 +148,20 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
+var isEqual = "Tacocat" === "tacocat";
+console.log(isEqual);
 
+var isEqual = "dog" === "cat";
+console.log(isEqual);
+
+var isSame = "Dog" === "Wolf";
+console.log(isSame);
+
+var sameSpelling = "see" === "see";
+console.log(sameSpelling);
+
+var better = "surfing" < "bodyboarding";
+console.log(better);
 
 /**
 * #6c Assignments
@@ -119,7 +179,36 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
+var generalContainer = 5; //trying something different!
+console.log(generalContainer -5);
+console.log(generalContainer -4);
+console.log(generalContainer -3);
+console.log(generalContainer -2);
+console.log(generalContainer -1);
+console.log(generalContainer -0);
 
+var generalContainer = 10
+
+console.log(generalContainer);
+generalContainer+=10;
+
+console.log(generalContainer);
+generalContainer-=10;
+
+console.log(generalContainer);
+generalContainer+=10;
+
+console.log(generalContainer);
+generalContainer-=10;
+
+console.log(generalContainer);
+generalContainer+=10;
+
+console.log(generalContainer);
+generalContainer-=10;
+
+console.log(generalContainer);
+generalContainer+=10;
 
 /**
 * #7a
@@ -133,7 +222,45 @@
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
+function jump(height) {
+return "you jump" + " " + height + " " + "feet high"; 
+}
 
+console.log(jump(10));
+console.log(jump(20));
+
+/*========*/ 
+
+function shoot(bullets) {
+return "shoot" + " " + bullets + " "  + "rounds"; 
+}
+
+console.log(shoot(5));
+console.log(shoot(10));
+
+/*========*/ 
+
+function car(parts) {
+return "nice" + " " + parts + " " + "for the engine" 
+}
+
+console.log(car("turbo"));
+
+/*========*/ 
+
+function matrix(movie) {
+return "The" + " " + movie + " " + "is a great scfi movie "
+}
+
+console.log(matrix("matrix"));
+
+/*========*/ 
+
+function word(success) {
+return "Develop success from failures. Discouragement and failure are two of the surest stepping stones to" + " " + success
+}
+
+console.log(word("success"));
 
 /**
 * #7b
@@ -145,3 +272,29 @@
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook (ingredient1, ingredient2, recipeName) {
+return ingredient1 + ' and ' + ingredient2 + 
+" make a " + recipeName
+}
+
+console.log(cook("Tomatoes", "Cheese", "Pizza"));
+
+/*========*/ 
+
+function car (part1, part2, part3) {
+return part1 + ' or ' + part2 + ' let me guess ' 
++ part3 
+}
+
+console.log(car("All Motor", "Supercharger", 
+"Turbocharger"));
+
+/*========*/ 
+
+function bodyboardingEquipment 
+(supply1, supply2, supply3) {
+return supply1 + ' ' + supply2 + ' ' + supply3
+}
+
+console.log(bodyboardingEquipment("leash", "fins", 
+	"bodyboard"));
